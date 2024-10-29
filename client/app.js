@@ -12,7 +12,7 @@ document.getElementById('search').addEventListener('keydown', function(event) {
 
 function searchMusic(query) {
     // API çağrısı yaparak sonuçları alın
-    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=AIzaSyA6Mj6JoVOr6o7GreMUtuOBW-YyxpzYQDY`)
+    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${query}&key=KEY`)
         .then(response => response.json())
         .then(data => {
             displayResults(data.items);

@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Müzik Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <input type="text" id="search" autofocus="autofocus" placeholder="Şarkı veya sanatçı ara...">
+        <button id="searchBtn">Ara</button>
+        <div id="results"></div>
+        <div id="playlist"></div>
+        <div id="lyrics"></div>
+        <div id="player-controls">
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <button id="play-btn">▶️</button>
+            <button id="pause-btn">⏸️</button>
+            <button id="stop-btn">⏹️</button>
+            <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+        </div>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <div id="player"></div>
+    
+    <script src="app.js"></script>
+
+
+</body>
+</html>

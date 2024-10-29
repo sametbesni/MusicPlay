@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    color: #333;
+    background: #20262E;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: all 0.2s;
+    height: 800px;
+}
+
+#search {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#searchBtn {
+    background-color: #57abf0;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 166px;
+    padding: 15px 10px;
+}
+#searchBtn button:hover{
+    background-color: #4281b5;
+  }
+#results div {
+    display: flex;
+    align-items: center;
+    justify-content: space-start;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#results button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#results button:hover {
+    background-color: #0056b3;
+}
+
+#results, #playlist, #lyrics {
+    margin-top: 20px;
+}
+
+#player-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+progress {
+    width: 100%;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+#lyrics {
+    margin: 20px;
+    font-family: 'Crimson Text', serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    color: #333;
+}
+ 
+ 

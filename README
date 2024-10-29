@@ -1,0 +1,41 @@
+# MusicPlay Uygulaması
+
+MusicPlay, kullanıcıların şarkı arayabileceği, dinleyebileceği ve şarkı sözlerini görüntüleyebileceği bir web uygulamasıdır.
+
+## Özellikler
+
+- Şarkı ve sanatçı arama
+- Şarkı çalma, duraklatma ve durdurma
+- Şarkı sözlerini görüntüleme
+- İlerleme çubuğu ile şarkı süresini kontrol etme
+
+## Kurulum
+
+1. Bu depoyu klonlayın:
+   ```bash
+   git clone https://github.com/sametbesni/MusicPlay.git
+   ```
+2. Proje dizinine gidin:
+   ```bash
+   cd your-repo
+   ```
+3. Gerekli paketleri yükleyin:
+   ```bash
+   npm install
+   ```
+
+## Kullanım
+
+1. Uygulamayı başlatın:
+   ```bash
+   npm start
+   ```
+2. Tarayıcınızda `http://localhost:3000` adresine gidin.
+
+## Katkıda Bulunma
+
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin.
+
+## Lisans
+
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.

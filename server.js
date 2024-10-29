@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/musicapp', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://192.168.1.61:27017/musicapp', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const songSchema = new mongoose.Schema({
     title: String,
